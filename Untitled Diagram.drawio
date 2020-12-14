@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T11:08:15.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="V4pxlOevBIeIWE7gWSCd" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T11:42:12.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ekUgZm-uxB1A4PVqzOLX" version="14.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1952" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2125" dy="1891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Game" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="120" width="170" height="278" as="geometry">
+          <mxGeometry x="230" y="120" width="170" height="278" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -179,7 +179,7 @@
         <mxCell id="uvN29aDNM0LQ4Qjqz4Rn-56" value="+ tick() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uvN29aDNM0LQ4Qjqz4Rn-43">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uvN29aDNM0LQ4Qjqz4Rn-58" value="+ item: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uvN29aDNM0LQ4Qjqz4Rn-43">
+        <mxCell id="uvN29aDNM0LQ4Qjqz4Rn-58" value="+ render(Graphics) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uvN29aDNM0LQ4Qjqz4Rn-43">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uvN29aDNM0LQ4Qjqz4Rn-57" value="+ getBounds() : Rectangle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uvN29aDNM0LQ4Qjqz4Rn-43">
@@ -467,13 +467,14 @@
         <mxCell id="uvN29aDNM0LQ4Qjqz4Rn-129" value="Player har en handler, till skillnad från platforms. Detta för att kunna se om playern och platformen krockar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#CC0000;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="1030" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uvN29aDNM0LQ4Qjqz4Rn-130" value="&lt;font color=&quot;#0000ff&quot;&gt;use : Bild&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=17;fontColor=#CC0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uvN29aDNM0LQ4Qjqz4Rn-69" target="zkfFHV4jXpPFQw0GAbJ--3">
+        <mxCell id="uvN29aDNM0LQ4Qjqz4Rn-130" value="&lt;font color=&quot;#0000ff&quot;&gt;use : Bild&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=17;fontColor=#CC0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;exitX=0.091;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uvN29aDNM0LQ4Qjqz4Rn-68" target="zkfFHV4jXpPFQw0GAbJ--3">
           <mxGeometry x="-0.1633" width="160" relative="1" as="geometry">
-            <mxPoint x="410" y="580" as="sourcePoint" />
+            <mxPoint x="530" y="750" as="sourcePoint" />
             <mxPoint x="570" y="580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="320" />
-              <mxPoint x="500" y="270" />
+              <mxPoint x="520" y="590" />
+              <mxPoint x="520" y="330" />
+              <mxPoint x="520" y="270" />
               <mxPoint x="460" y="270" />
               <mxPoint x="460" y="211" />
             </Array>
